@@ -35,4 +35,5 @@ switch (num) {
         console.log('New etot raz');
         break;        
 }
-   
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA

@@ -1,39 +1,28 @@
 " use strict ";
 
-if ( 4 == 9 ) {
-    console.log ('OK!');
-} else {
-    console.log ('Error!');
+let num = 50;
+
+/* while (num <= 55) {
+    console.log(num);
+    num++;
+} */
+
+/* do {
+    console.log(num);
+    num++;
 }
+while (num <= 55); */
 
-const num = 50;
+/* for (let i = 1; i < 8; i++) {
+    console.log(num);
+    num++;
+} */
 
-if (num < 49) {
-    console.log ('error');
-} else if (num > 100) {
-    console.log ('mnogo');
-} else {
-    console.log ('OK!');
+for (let i = 1; i < 8; i++) {
+    if (i === 6) {
+        /* break; */
+        continue;
+    }
+
+    console.log(i);
 }
-
-(num == 51) ? console.log('OK!') : console.log('error2');
-
-
-const num = 51
- 
-switch (num) {
-    case 49:
-        console.log ("newerno")
-        break;
-    case 100:
-        console.log ("newerno")
-        break;
-    case 50:
-        console.log('prawilno');
-        break;
-    default:
-        console.log('New etot raz');
-        break;        
-}
-   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
